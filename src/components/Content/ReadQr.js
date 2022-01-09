@@ -106,8 +106,7 @@ return(
                                     {(()=>{
                                             if(scanResultWebCam!==''){
                                                 if(!isTs){
-                                                    var Tnow=1642154389
-                                                    //moment(Date.now()).unix()
+                                                    var Tnow=moment(Date.now()).unix()
                                                     if(Ts===0){
                                                         setTs(-1)
                                                         setIsTs(true)
