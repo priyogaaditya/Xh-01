@@ -13,7 +13,6 @@ import CrUp from './CrUp';
 import Upload from './Upload';
 import Adm from './Adm';
 import Main from './Content/Main';
-import IpfsUp from './Content/IpfsUp';
 
 
 
@@ -290,7 +289,7 @@ class App extends Component {
                 <main role="main" className="col-lg-12 d-flex">
                   {this.state.loading
                     ? <div id="loader" className="text-center"><p className="text-center">Loading...</p></div>
-                    : <IpfsUp storeHash={this.storeHash}
+                    : <Upload storeHash={this.storeHash}
                             pemeriksa={this.state.pemeriksa} 
                             jk={this.state.jk} 
                             pasien={this.state.pasien} 

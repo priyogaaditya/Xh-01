@@ -92,7 +92,11 @@ return(
                                         if(scanResultWebCam!==""){
                                             if(!isTs){
                                                 var Tnow=moment(Date.now()).unix()
-                                                if(Math.floor(Tnow-Ts<86400)){
+                                                if(Ts===0){
+                                                    setTs(-1)
+                                                    setIsTs(true)
+                                                }
+                                                else if(Math.floor(Tnow-Ts<86400)){
                                                     setTs(1)
                                                     setIsTs(true)
                                                 }else{

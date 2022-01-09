@@ -21,7 +21,7 @@ return(
                 <div className="row">
                     <div className="col-md-12">
                         <div className="well well-sm">
-                            <Alert variant="warning"><Alert.Heading>Upload Data Sebelumnya Terlebih Dahulu!</Alert.Heading></Alert>
+                            <Alert variant="warning"><Alert.Heading><p className="center">Upload Data Sebelumnya Terlebih Dahulu!</p></Alert.Heading></Alert>
                        </div>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ return(
             <div className="row">
                 <div className="col-md-12">
                     <div className="well well-sm">
-                        <Alert variant="danger"><Alert.Heading>ANDA TIDAK PUNYA WEWENANG DISINI!!!</Alert.Heading></Alert>
+                        <Alert variant="danger"><Alert.Heading><p className="center">ANDA TIDAK PUNYA WEWENANG DISINI!!!</p></Alert.Heading></Alert>
                    </div>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Alert } from 'react-bootstrap';
-var isSubmit=false
+var isSubmit=0
 class Adm extends Component {
 
     
@@ -20,7 +20,7 @@ class Adm extends Component {
                                                                 const uAddress = this.uAddress.value
                                                                 const uName = this.uName.value
                                                                 const uRole = this.uRole.value
-                                                                isSubmit=true
+                                                                isSubmit=1
                                                                 this.props.addUser(uAddress,uName,uRole)
                                                                 }}>
                                                                 <fieldset>
@@ -56,6 +56,7 @@ class Adm extends Component {
                                                         <div className="col-md-12">
                                                             <div className="well well-sm"></div>
                                                                 <Alert variant="success"><Alert.Heading>User Berhasil Ditambahkan <span>&#10003;</span></Alert.Heading></Alert>
+                                                                <div className='center'><button type="qrcode-container" className="btn btn-primary">Back</button></div>
                                                             </div>
                                                         </div>
                                                     </div>
