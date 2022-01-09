@@ -1,1 +1,107 @@
 /* Styles go here */
+/* IMG */
+.logo{
+    border-radius: 35%;
+}
+
+/* Text CSS */
+.center{
+    text-align: center;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.thick {
+    font-weight: bold;
+}
+
+.thicker {
+    font-weight: 900;
+}
+
+.uName {
+    font-weight: normal;
+    color: white;
+}
+
+.ttd{
+    width: 50%;
+    display: inline-block;
+    text-align: left;
+    float: right;
+}
+
+/* Letter/Body CSS */
+
+.justify{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.Post{
+    max-width: 800px;
+    width: 100%;
+    display: table;
+    margin: 0 auto;
+    padding: 20px 50px;
+  }
+
+.judul{
+    text-align:center;
+}
+
+.halaman{
+    width: auto; 
+    height: auto; 
+    position: absolute; 
+    border: 1px solid; 
+    padding-top: 30px; 
+    padding-left: 30px; 
+    padding-right: 30px; 
+    padding-bottom: 80px;
+}
+
+/* Table CSS */
+.table {
+    table-layout: fixed;
+    width: 100%;
+    border:2px solid black;
+    border-collapse: collapse;
+    font-weight: bold;
+}
+
+.n1{
+    width: 30%;
+    vertical-align: top;
+}
+
+.n2{
+    width: 5%;
+    vertical-align: top;
+}
+
+.n3{    
+    width: 65%;
+}
+.n4{
+    width: 50%;
+}
+
+/* Qr CSS */
+
+.qrcode-container {
+    display: flex; justify-content: center; text-align: center;
+ }
+
+/* Form */
+
+
+select {
+    width:30%;
+}
+
+.selo {
+    padding: 7px 15px;
+  }
